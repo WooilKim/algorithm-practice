@@ -28,7 +28,11 @@
 #
 # 메모리 제한
 # 256MB
-
+#
+# 채점 결과
+# 시간 436 MS
+# 메모리 30856KB
+#
 n = int(input())
 deque = list()
 cmds = list()
@@ -62,9 +66,9 @@ for cmd in cmds:
         if len(deque):
             print('{}'.format(deque[0]))
         else:
-            print(''.format(-1))
+            print('{}'.format(-1))
     elif cmd[0] == "back":
         if len(deque):
             print(deque[len(deque) - 1])
         else:
-            print(''.format(-1))
+            print('{}'.format(-1))
