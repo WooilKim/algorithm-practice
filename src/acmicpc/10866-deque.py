@@ -28,6 +28,7 @@
 #
 # 메모리 제한
 # 256MB
+
 n = int(input())
 deque = list()
 cmds = list()
