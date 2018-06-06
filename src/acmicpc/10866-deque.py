@@ -33,6 +33,7 @@
 # 시간 436 MS
 # 메모리 30856KB
 #
+
 n = int(input())
 deque = list()
 cmds = list()
