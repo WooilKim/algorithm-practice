@@ -3,8 +3,8 @@
 def solution(msg):
     answer = []
     dic = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
-    i, j = 0, 0
-    while (i < len(msg)):
+    i, j = 0, 1
+    while i < len(msg):
         if msg[i:j] in dic:
             print(i, j, msg[i:j])
 
@@ -12,5 +12,7 @@ def solution(msg):
 
 
 if __name__ == '__main__':
-    msg = input()
-    print(solution(msg))
+    # msg = input()
+    # print(solution(msg))
+    msg = 'abcdefg'
+    print(msg[1:])
