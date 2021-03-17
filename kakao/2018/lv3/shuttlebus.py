@@ -24,7 +24,7 @@ def solution(n, t, m, timetable):
                 break
 
         if i == m:
-            answer = crews[i-1] - 1
+            answer = crews[i - 1] - 1
         else:
             answer = bus
         crews = crews[i:]
