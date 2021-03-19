@@ -28,3 +28,10 @@
 
 #### LV3 
 [추석트래픽](kakao/2018/lv3/thanksgiving_traffic.py)
+[셔틀버스](kakao/2018/lv3/shuttlebus.py)
+
+## 삼성 기출문제 (출처 백준)
+
+[뱀](samsung/3190_snake.py)
+, [2048(쉬움)](samsung/12100_2048(Easy).py)
+, [구슬탈출2](samsung/13460_bead_escape_2.py)
