@@ -24,9 +24,9 @@ def solution(T):
             print('error')
         else:
             if direction == 1:
-                print(t[1])
+                print(str(t[1]).replace(' ', ''))
             else:
-                print(list(reversed(t[1])))
+                print(str(t[1][::-1]).replace(' ', ''))
 
 
 if __name__ == '__main__':
@@ -35,7 +35,8 @@ if __name__ == '__main__':
     for i in range(t):
         p = input()
         n = int(input())
-        arr = json.loads(input())
+        x = input()
+        arr = json.loads(x)
         T.append([p, arr])
 
     solution(T)
