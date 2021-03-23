@@ -1,0 +1,16 @@
+DFS, BFS
+공통문제 : 2606, 1697, 1012
+개별문제 https://www.acmicpc.net/step/24 중 겹치지 않게 1문제 풀기
+1260 (김세이)
+4963 (한승범)
+2206 (김우일)
+
+
+greedy
+brute force
+
+tree
+dijkstra
+
+DP
+

@@ -1,5 +1,4 @@
-
-# 29164 KB	64 MS
+# https://www.acmicpc.net/problem/1021
 
 n, m = [int(i) for i in input().split()]
 
@@ -12,7 +11,7 @@ for target in targets:
     for j in range(len(circular_queue)):
         idx = (current_index + j + 1) % len(circular_queue)
         if circular_queue[idx] == target:
-            if j+1 <= len(circular_queue) / 2:
+            if j + 1 <= len(circular_queue) / 2:
                 answer += j + 1
                 # print(j+1)
             else:
