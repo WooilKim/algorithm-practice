@@ -4,7 +4,7 @@ import pprint
 N, E, S, W = 0, 1, 2, 3
 
 
-def solution(n, m, r, c, d, board):
+def solution(r, c, d, board):
     cleaned = 0
     # flag = False
     while True:
@@ -16,7 +16,6 @@ def solution(n, m, r, c, d, board):
             next_r, next_c, next_d = turn_left(r, c, d)
             d = next_d
             if board[next_r][next_c] == 0:
-                # if -1 < next_r < n and -1 < next_c < m and board[next_r][next_c] == 0:
                 r, c = next_r, next_c
                 flag = True
                 break
@@ -70,6 +69,6 @@ if __name__ == '__main__':
     board = list()
     for i in range(n):
         board.append(list(map(int, input().split())))
-    print(solution(n, m, r, c, d, board))
+    print(solution(r, c, d, board))
     # pprint.pprint(board)
     # print(r, c, d)
