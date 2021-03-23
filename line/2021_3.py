@@ -4,7 +4,11 @@ import json
 def solution(enter, leave):
     ans = list()
     for _ in enter:
-        ans.append(set())
+        ans.append(0)
+    for l in leave:
+        for i in range(enter[:enter.index(l)]):
+            ans[i] += 1
+
     for i in enter:
         for j in enter:
             if i == j:
