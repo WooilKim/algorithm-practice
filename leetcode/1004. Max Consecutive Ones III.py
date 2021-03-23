@@ -7,7 +7,7 @@ class Solution:
 
         zeros = list()
         ones = list()
-        flag = A[0]
+        flag = 1
         cnt = 0
         for i, a in enumerate(A):
             if a != flag:
@@ -19,26 +19,29 @@ class Solution:
         l[A[-1]].append(cnt)
         print(l)
         cnt = 0
-        for zero in l[0]:
-            if zero <= K:
+        k_left = 0
+        for zero_cnt in l[0]:
+            k_left = zero_cnt
+            if zero_cnt < K:
                 if A[0] == 0:
                     cnt =
                 else:
-
-
-        for i, a in enumerate(A):
-            cnt = 0
-            j = i
-            while cnt <= K:
-                if j == len(A):
-                    break
-                if A[j] == 0:
-                    cnt += 1
-                    if cnt > K:
-                        break
-                j += 1
-            M = max(j - i, M)
-        return M
+                    cnt
+        #
+        # for i, a in enumerate(A):
+        #     cnt = 0
+        #     j = i
+        #     while cnt <= K:
+        #         if j == len(A):
+        #             break
+        #         if A[j] == 0:
+        #             cnt += 1
+        #             if cnt > K:
+        #                 break
+        #         j += 1
+        #     M = max(j - i, M)
+        # return M
+        return
 
 
 print(Solution().longestOnes(A=[1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], K=2))
