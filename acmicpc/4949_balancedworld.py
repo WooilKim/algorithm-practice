@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/4949
+# 자료구조, 문자열, 스택
+
 def solution(txt):
     l = list()
     for t in txt:
