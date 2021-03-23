@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/14502
+#
 from itertools import combinations
 
 WALL, VIRUS = 1, 2
