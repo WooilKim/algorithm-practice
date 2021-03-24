@@ -18,31 +18,26 @@ class Solution:
                 cnt += 1
         l[A[-1]].append(cnt)
         print(l)
-        cnt = 0
-        k_left = 0
-        for zero_cnt in l[0]:
-            k_left = zero_cnt
-            if zero_cnt < K:
-                if A[0] == 0:
-                    cnt =
+        print(len(l[0]), len(l[1]))
+
+        for i in range(len(l[1])):
+            if i == 0:
+                M = l[1][0]
+                continue
+            j = i
+            k_left = K
+            while k_left > 0 and j > 0:
+                k_left -= l[0][j - 1]
+                j -= 1
+            if k_left >= 0:
+                if len(l[0]) > i:
+                    s = sum(l[1][j:i + 1]) + K - max(0, k_left - l[0][i])
                 else:
-                    cnt
-        #
-        # for i, a in enumerate(A):
-        #     cnt = 0
-        #     j = i
-        #     while cnt <= K:
-        #         if j == len(A):
-        #             break
-        #         if A[j] == 0:
-        #             cnt += 1
-        #             if cnt > K:
-        #                 break
-        #         j += 1
-        #     M = max(j - i, M)
-        # return M
-        return
+                    s = sum(l[1][j:i + 1]) + K - k_left
+            else:
+                s = sum(l[1][j + 1:i + 1]) + K
+            print(j, i, s, k_left)
+            M = max(M, s)
+        return M
 
 
-print(Solution().longestOnes(A=[1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], K=2))
-print(Solution().longestOnes(A=[0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1], K=3))
