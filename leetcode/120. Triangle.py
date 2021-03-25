@@ -1,10 +1,21 @@
 # https://leetcode.com/problems/triangle/
 
-# memo = dict()
+# Runtime: 52 ms, faster than 95.68% of Python3 online submissions for Triangle.
+# Memory Usage: 15 MB, less than 86.86% of Python3 online submissions for Triangle.
+class Solution:
+    def minimumTotal(self, triangle: list[list[int]]) -> int:
+        h = len(triangle)
+        minlen = triangle[-1]
+        for layer in range(h - 1)[::-1]:
+            for i in range(layer + 1):
+                minlen[i] = min(minlen[i], minlen[i + 1]) + triangle[layer][i]
+        print(triangle)
+        return minlen[0]
+
 
 # Runtime: 72 ms, faster than 21.25% of Python3 online submissions for Triangle.
 # Memory Usage: 17.3 MB, less than 7.42% of Python3 online submissions for Triangle.
-class Solution:
+class Solution2:
     def minimumTotal(self, triangle: list[list[int]]) -> int:
         global memo
         memo = dict()
@@ -23,6 +34,4 @@ class Solution:
 
 
 print(Solution().minimumTotal(triangle=[[2], [3, 4], [6, 5, 7], [4, 1, 8, 3]]))
-print(memo)
 print(Solution().minimumTotal(triangle=[[1], [2, 3]]))
-print(memo)
