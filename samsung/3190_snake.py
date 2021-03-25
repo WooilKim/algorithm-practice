@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/3190
-
+# 뱀
 UP, DOWN, LEFT, RIGHT = 0, 1, 2, 3
 
 

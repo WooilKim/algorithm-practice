@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/12100
+# 2048(Easy)
 
 LEFT, RIGHT, UP, DOWN = 0, 1, 2, 3
 
