@@ -11,6 +11,10 @@ class Solution:
         #         S[i][j], S[j][i] = S[i][j] + S[j][i], S[i][j] + S[j][i]
         # print(list(combinations(n,2)))
         scores = [S[a][b] + S[b][a] for a, b in combinations(range(n), 2)]
+        cs = list(x for x in combinations(range(n), n // 2) if 0 in x)
+        print(cs)
+
+        # a 가 포함된것만 하면 반이됨
         size = len(scores)
         m = min([sum(c) for c in combinations(scores, size // 2)])
         print(m)
