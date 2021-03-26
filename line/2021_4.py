@@ -10,7 +10,6 @@ def solution(arr, q):
         parents.add(int(a.split()[2]))
     leaves = [a for a in arr if int(a.split()[0]) not in parents]
     idxs = [a.split()[1] for a in leaves]
-    # print(parents, leaves)
     has_answer = False
     answers = list()
     for leaf in leaves:
