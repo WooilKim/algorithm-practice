@@ -9,28 +9,50 @@ class Solution:
             return n - k
         global memo
         memo = dict()
-        t = 0
-        for i in range(n // 2, n):
-            memo[i] = n - i
+        # t = 0
+        memo[n] = 0
         # t += 1
-        for i in range(n, k):
-            if i % 2 == 0:
-                memo[i] = min(memo[i - 1] + 1, memo[])
-        print(min(self.move(n - 1, t + 1, k), self.move(n + 1, t + 1, k), self.move(2 * n, t + 1, k)))
-
-    def distance(self, start, end):
-        if start == end:
-            return 0
-        elif n < 0:
-            return 99999999
-        if n in memo:
-            memo[n] = min(memo[n], t)
-            return memo[n]
-        else:
-            memo[n] = t
-            return min(self.distance(n - 1, end) + 1,
-                       self.distance(start + 1, end) + 1,
-                       self.distance(2 * start, end) + 1)
+        while k not in memo:
+            for t in list(memo.keys()):
+                if t > 0:
+                    if t - 1 in memo:
+                        memo[t - 1] = min(memo[t - 1], memo[t] + 1)
+                    else:
+                        memo[t - 1] = memo[t] + 1
+                if t + 1 in memo:
+                    memo[t + 1] = min(memo[t + 1], memo[t] + 1)
+                else:
+                    memo[t + 1] = memo[t] + 1
+                if 2 * t in memo:
+                    memo[2 * t] = min(memo[2 * t], memo[t] + 1)
+                else:
+                    memo[2 * t] = memo[t] + 1
+        return memo[k]
+    #     for i in range(n, k):
+    #         if i % 2 == 0:
+    #             memo[i] = min(memo[i - 1] + 1, memo[])
+    #     print(min(self.move(n - 1, t + 1, k), self.move(n + 1, t + 1, k), self.move(2 * n, t + 1, k)))
+    #
+    #     print(self.distance(k))
+    #
+    # def distance(self, destination):
+    #     if destination in memo:
+    #         return memo[destination]
+    #
+    #     if destination > 0:
+    #         if destination % 2 == 0:
+    #             return min(self.distance(destination - 1) + 1,
+    #                        self.distance(destination + 1) + 1,
+    #                        self.distance(destination // 2) + 1)
+    #         else:
+    #             return min(self.distance(destination - 1) + 1,
+    #                        self.distance(destination + 1) + 1)
+    #     else:
+    #         if destination % 2 == 0:
+    #             return min(self.distance(destination + 1) + 1,
+    #                        self.distance(destination // 2) + 1)
+    #         else:
+    #             return self.distance(destination + 1) + 1
 
 
 if __name__ == '__main__':
