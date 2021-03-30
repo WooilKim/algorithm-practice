@@ -14,7 +14,7 @@ class Solution:
         groups = list(set())
         memo = [i for i in range(n * n)]
         flag = True
-        cnt =0
+        cnt = 0
         while flag:
             flag = False
             for j in range(n):
