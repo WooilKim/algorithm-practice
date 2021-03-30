@@ -1,13 +1,26 @@
 # https://www.acmicpc.net/problem/15686
 # 15686 치킨배달
 
+from itertools import combinations
 
-# Runtime: 164 ms, faster than 87.37% of Python3 online submissions for Kth Smallest Element in a Sorted Matrix.
-# Memory Usage: 20.1 MB, less than 49.41% of Python3 online submissions for Kth Smallest Element in a Sorted Matrix.
+
 class Solution:
-    def kthSmallest(self, matrix: list[list[int]], k: int) -> int:
-        return sorted([j for sub in matrix for j in sub])[k - 1]
+    def min_chicken_distance(self, n, m, city) -> int:
+        chickens = [(j, i) for j in range(n) for i in range(n) if city[j][i] == 2]
+        homes = [(j, i) for j in range(n) for i in range(n) if city[j][i] == 1]
+        min_sum_distance = 99999
+        for case in combinations(chickens, m):
+            sum_distance = 0
+            for home in homes:
+                m = 99999
+                for chicken in case:
+                    m = min(m, abs(chicken[0] - home[0]) + abs(chicken[1] - home[1]))
+                sum_distance += m
+            min_sum_distance = min(min_sum_distance, sum_distance)
+        return min_sum_distance
 
 
 if __name__ == '__main__':
-    print(Solution().kthSmallest(matrix=[[1, 5, 9], [10, 11, 13], [12, 13, 15]], k=8))
+    n, m = map(int, (input().split()))
+    city = [list(map(int, input().split())) for i in range(n)]
+    print(Solution().min_chicken_distance(n, m, city))
