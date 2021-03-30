@@ -2,8 +2,6 @@
 # 2060.바이러스
 
 
-# Runtime: 164 ms, faster than 87.37% of Python3 online submissions for Kth Smallest Element in a Sorted Matrix.
-# Memory Usage: 20.1 MB, less than 49.41% of Python3 online submissions for Kth Smallest Element in a Sorted Matrix.
 class Solution:
     def get_infected(self, n: int, m: int, graph: list[list[int]]) -> int:
         infected = {1}
