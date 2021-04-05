@@ -1,12 +1,14 @@
 # https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2962/
 
+
 # Your runtime beats 79.76 % of python3 submissions.
 class Solution:
     def myAtoi(self, s: str) -> int:
         m, M = -2 ** 31, 2 ** 31 - 1
+        # 10 ** 22
         signs = ['-', '+']
         nums = [a for a in '0123456789']
-        sign = '+'
+        sign = 1
         ans = 0
         i = 0
         if not s:
@@ -14,21 +16,20 @@ class Solution:
         while i < len(s) and s[i] == ' ':
             i += 1
         if i < len(s) and s[i] in signs:
-            sign = s[i]
+            if s[i] == '-':
+                sign *= -1
             i += 1
-        num = ''
         while i < len(s) and s[i] in nums:
-            num += s[i]
+            ans = ans * 10 + int(s[i])
             i += 1
-        if not num:
-            return ans
+            if ans > -m:
+                break
+        ans *= sign
+
+        if sign < 0:
+            return max(m, ans)
         else:
-            ans = int(num)
-            if sign == '-':
-                ans = max(m, -ans)
-            else:
-                ans = min(M, ans)
-            return ans
+            return min(M, ans)
 
 
 if __name__ == '__main__':
