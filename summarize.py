@@ -2,17 +2,28 @@ import os
 
 
 def summarize():
-    sites = list()
-    with open('README.md', 'w') as f:
-        filenames = os.listdir('./')
-        for filename in filenames:
-            if filename == 'template':
-                continue
-            if os.path.isdir(filename):
-                sites.append(filename)
+    sites = ['samsung', 'ctci', 'etc', 'leetcode', 'programmers']
 
-            print(filename)
-            print(os.path.isdir(filename))
+    with open('README.md', 'w') as f:
+        f.write('# Algorithm Practice\n')
+        for site in sites:
+            f.write(f'## {site}\n')
+            path = os.walk(f"./{site}")
+            for root, directories, files in path:
+                print('directories', directories)
+                print('files', files)
+                for filename in files:
+                    ext = os.path.splitext(filename)[-1]
+                    if ext == '.py':
+                        print(root, filename)
+
+                        f.write(f'{root.split("/")} {filename}\n\n')
+        # for directory in directories:
+        #     print(directory)
+        #     if directory in dir_exception:
+        #         continue
+        # for file in files:
+        #     print(file)
 
 
 if __name__ == '__main__':
