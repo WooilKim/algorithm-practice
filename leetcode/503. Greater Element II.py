@@ -1,8 +1,19 @@
 # https://leetcode.com/problems/next-greater-element-ii/
 
+
+class Solution:
+    def nextGreaterElements(self, A):
+        stack, res = [], [-1] * len(A)
+        for i in range(len(A)) * 2:
+            while stack and (A[stack[-1]] < A[i]):
+                res[stack.pop()] = A[i]
+            stack.append(i)
+        return res
+
+
 # Runtime: 280 ms, faster than 19.63% of Python3 online submissions for Next Greater Element II.
 # Memory Usage: 15.7 MB, less than 62.83% of Python3 online submissions for Next Greater Element II.
-class Solution:
+class Solution3:
     def nextGreaterElements(self, nums: list[int]) -> list[int]:
         stack = nums[::-1]
         ans = [-1 for _ in nums]
