@@ -17,7 +17,7 @@ def summarize():
                     if ext == '.py':
                         print(root, filename)
 
-                        f.write(f'{root.split("/")} {filename}\n\n')
+                        f.write(f'[{filename}]({root})\n\n')
         # for directory in directories:
         #     print(directory)
         #     if directory in dir_exception:
