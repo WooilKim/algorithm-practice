@@ -41,17 +41,17 @@
 
 [212.Word_Search_II](./leetcode/212.Word_Search_II.py)
 
-[2.Longest_Substring_Without_Repeating_Characters](./leetcode/Amazon/Arrays and Strings/2.Longest_Substring_Without_Repeating_Characters.py)
+[2.Longest_Substring_Without_Repeating_Characters](./leetcode/Amazon/Arrays_and_Strings/2.Longest_Substring_Without_Repeating_Characters.py)
 
-[6.Roman_to_Integer](./leetcode/Amazon/Arrays and Strings/6.Roman_to_Integer.py)
+[6.Roman_to_Integer](./leetcode/Amazon/Arrays_and_Strings/6.Roman_to_Integer.py)
 
-[5.Integer_to_Roman](./leetcode/Amazon/Arrays and Strings/5.Integer_to_Roman.py)
+[5.Integer_to_Roman](./leetcode/Amazon/Arrays_and_Strings/5.Integer_to_Roman.py)
 
-[4.Container_With_Most_Water](./leetcode/Amazon/Arrays and Strings/4.Container_With_Most_Water.py)
+[4.Container_With_Most_Water](./leetcode/Amazon/Arrays_and_Strings/4.Container_With_Most_Water.py)
 
-[1.Two_Sum](./leetcode/Amazon/Arrays and Strings/1.Two_Sum.py)
+[1.Two_Sum](./leetcode/Amazon/Arrays_and_Strings/1.Two_Sum.py)
 
-[3.String_to_Integer_(atoi)](./leetcode/Amazon/Arrays and Strings/3.String_to_Integer_(atoi).py)
+[3.String_to_Integer_(atoi)](./leetcode/Amazon/Arrays_and_Strings/3.String_to_Integer_(atoi).py)
 
 ## programmers
 [mysterymap](./programmers/kakao/2018/lv1/mysterymap.py)
