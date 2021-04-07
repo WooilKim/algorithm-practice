@@ -17,7 +17,7 @@ def summarize():
                     if ext == '.py':
                         print(root, filename)
 
-                        f.write(f'[{filename}]({root})\n\n')
+                        f.write(f'[{filename[:-3]}]({root}/{filename})\n\n')
         # for directory in directories:
         #     print(directory)
         #     if directory in dir_exception:
