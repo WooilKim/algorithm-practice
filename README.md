@@ -13,45 +13,45 @@
 [2021_1](./etc/line/2021_1.py)
 
 ## leetcode
-[5716. Maximize Number of Nice Divisors](./leetcode/5716. Maximize Number of Nice Divisors.py)
+[68.Text_Justification](./leetcode/68.Text_Justification.py)
 
-[212. Word Search II](./leetcode/212. Word Search II.py)
+[208.Implement_Trie_(prefix_tree)](./leetcode/208.Implement_Trie_(prefix_tree).py)
 
-[120. Triangle](./leetcode/120. Triangle.py)
+[5713.Number_of_Different_Integers_in_a_String](./leetcode/5713.Number_of_Different_Integers_in_a_String.py)
 
-[767. Reorganize String](./leetcode/767. Reorganize String.py)
+[120.Triangle](./leetcode/120.Triangle.py)
 
-[5714. Evaluate the Bracket Pairs of a String](./leetcode/5714. Evaluate the Bracket Pairs of a String.py)
+[5714.Evaluate_the_Bracket_Pairs_of_a_String](./leetcode/5714.Evaluate_the_Bracket_Pairs_of_a_String.py)
 
-[621. Task Scheduler](./leetcode/621. Task Scheduler.py)
+[767.Reorganize_String](./leetcode/767.Reorganize_String.py)
 
-[68. Text Justification](./leetcode/68. Text Justification.py)
+[5715.Minimum_Number_of_Operations_to_Reinitialize_a_Permutation](./leetcode/5715.Minimum_Number_of_Operations_to_Reinitialize_a_Permutation.py)
 
-[5715. Minimum Number of Operations to Reinitialize a Permutation](./leetcode/5715. Minimum Number of Operations to Reinitialize a Permutation.py)
+[378.Kth_Smallest_Element_in_a_Sorted_Matrix](./leetcode/378.Kth_Smallest_Element_in_a_Sorted_Matrix.py)
 
-[208. Implement Trie (prefix tree)](./leetcode/208. Implement Trie (prefix tree).py)
+[1004.Max_Consecutive_Ones_III](./leetcode/1004.Max_Consecutive_Ones_III.py)
 
-[5713. Number of Different Integers in a String](./leetcode/5713. Number of Different Integers in a String.py)
+[134.Gas_Station](./leetcode/134.Gas_Station.py)
 
-[503. Greater Element II](./leetcode/503. Greater Element II.py)
+[503.Greater_Element_II](./leetcode/503.Greater_Element_II.py)
 
-[1004. Max Consecutive Ones III](./leetcode/1004. Max Consecutive Ones III.py)
+[621.Task_Scheduler](./leetcode/621.Task_Scheduler.py)
 
-[134. Gas Station](./leetcode/134. Gas Station.py)
+[5716.Maximize_Number_of_Nice_Divisors](./leetcode/5716.Maximize_Number_of_Nice_Divisors.py)
 
-[378. Kth Smallest Element in a Sorted Matrix](./leetcode/378. Kth Smallest Element in a Sorted Matrix.py)
+[212.Word_Search_II](./leetcode/212.Word_Search_II.py)
 
-[1. Two Sum](./leetcode/Amazon/Arrays and Strings/1. Two Sum.py)
+[2.Longest_Substring_Without_Repeating_Characters](./leetcode/Amazon/Arrays and Strings/2.Longest_Substring_Without_Repeating_Characters.py)
 
-[4. Container With Most Water](./leetcode/Amazon/Arrays and Strings/4. Container With Most Water.py)
+[6.Roman_to_Integer](./leetcode/Amazon/Arrays and Strings/6.Roman_to_Integer.py)
 
-[6. Roman to Integer](./leetcode/Amazon/Arrays and Strings/6. Roman to Integer.py)
+[5.Integer_to_Roman](./leetcode/Amazon/Arrays and Strings/5.Integer_to_Roman.py)
 
-[5. Integer to Roman](./leetcode/Amazon/Arrays and Strings/5. Integer to Roman.py)
+[4.Container_With_Most_Water](./leetcode/Amazon/Arrays and Strings/4.Container_With_Most_Water.py)
 
-[3. String to Integer (atoi)](./leetcode/Amazon/Arrays and Strings/3. String to Integer (atoi).py)
+[1.Two_Sum](./leetcode/Amazon/Arrays and Strings/1.Two_Sum.py)
 
-[2. Longest Substring Without Repeating Characters](./leetcode/Amazon/Arrays and Strings/2. Longest Substring Without Repeating Characters.py)
+[3.String_to_Integer_(atoi)](./leetcode/Amazon/Arrays and Strings/3.String_to_Integer_(atoi).py)
 
 ## programmers
 [mysterymap](./programmers/kakao/2018/lv1/mysterymap.py)
