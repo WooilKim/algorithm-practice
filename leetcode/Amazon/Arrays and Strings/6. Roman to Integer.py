@@ -1,5 +1,25 @@
 # https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2965/
+
 class Solution:
+    def romanToInt(self, s: str) -> int:
+        # Better to go in reverse
+        # Use a dictionary to encode the values of each letter
+        # Add or substract based on previous value
+        d = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        prev = 0
+        val = 0
+        for c in s[::-1]:
+            cur = d[c]
+            if (prev > cur):
+                val -= cur
+            else:
+                val += cur
+            prev = cur
+
+        return val
+
+
+class Solution2:
     def romanToInt(self, s: str) -> int:
         if not 1 <= len(s) <= 15:
             return -1
