@@ -1,5 +1,63 @@
 # Algorithm Practice
-## samsung
+## acmicpc
+[2606.virus](./acmicpc/2606.virus.py)
+
+[1021.circular_queue](./acmicpc/1021.circular_queue.py)
+
+[2206.break_wall_and_go](./acmicpc/2206.break_wall_and_go.py)
+
+[10845.queue](./acmicpc/10845.queue.py)
+
+[10866.deque](./acmicpc/10866.deque.py)
+
+[5430.AC](./acmicpc/5430.AC.py)
+
+[1012.organic_cabbage](./acmicpc/1012.organic_cabbage.py)
+
+[4949.balancedworld](./acmicpc/4949.balancedworld.py)
+
+[1697.hide_and_seek](./acmicpc/1697.hide_and_seek.py)
+
+[14503_robot_cleaner](./acmicpc/samsung/14503_robot_cleaner.py)
+
+[15686](./acmicpc/samsung/15686.py)
+
+[13460_bead_escape_2](./acmicpc/samsung/13460_bead_escape_2.py)
+
+[14888_operator](./acmicpc/samsung/14888_operator.py)
+
+[14889_start_link](./acmicpc/samsung/14889_start_link.py)
+
+[14890_slope](./acmicpc/samsung/14890_slope.py)
+
+[14500_tetrimino](./acmicpc/samsung/14500_tetrimino.py)
+
+[5373](./acmicpc/samsung/5373.py)
+
+[15683_cctv](./acmicpc/samsung/15683_cctv.py)
+
+[14501_retire](./acmicpc/samsung/14501_retire.py)
+
+[14499_rolldice](./acmicpc/samsung/14499_rolldice.py)
+
+[3190_snake](./acmicpc/samsung/3190_snake.py)
+
+[12100_2048(Easy)](./acmicpc/samsung/12100_2048(Easy).py)
+
+[15684](./acmicpc/samsung/15684.py)
+
+[16234](./acmicpc/samsung/16234.py)
+
+[13458_test_inspector](./acmicpc/samsung/13458_test_inspector.py)
+
+[14891_toothed_wheel](./acmicpc/samsung/14891_toothed_wheel.py)
+
+[15685](./acmicpc/samsung/15685.py)
+
+[16235](./acmicpc/samsung/16235.py)
+
+[14502_lab](./acmicpc/samsung/14502_lab.py)
+
 ## ctci
 [mid_16_5](./ctci/mid_16_5.py)
 
@@ -51,7 +109,11 @@
 
 [1.Two_Sum](./leetcode/Amazon/Arrays_and_Strings/1.Two_Sum.py)
 
+[7.3Sum](./leetcode/Amazon/Arrays_and_Strings/7.3Sum.py)
+
 [3.String_to_Integer_(atoi)](./leetcode/Amazon/Arrays_and_Strings/3.String_to_Integer_(atoi).py)
+
+[8.3Sum_Closest](./leetcode/Amazon/Arrays_and_Strings/8.3Sum_Closest.py)
 
 ## programmers
 [mysterymap](./programmers/kakao/2018/lv1/mysterymap.py)

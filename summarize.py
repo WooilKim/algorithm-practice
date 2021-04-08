@@ -2,7 +2,7 @@ import os
 
 
 def summarize():
-    sites = ['samsung', 'ctci', 'etc', 'leetcode', 'programmers']
+    sites = ['acmicpc', 'ctci', 'etc', 'leetcode', 'programmers']
 
     with open('README.md', 'w') as f:
         f.write('# Algorithm Practice\n')
