@@ -2,7 +2,7 @@ import os
 
 
 def summarize():
-    sites = ['acmicpc', 'ctci', 'etc', 'leetcode', 'programmers']
+    sites = ['acmicpc', 'ctci', 'etc', 'leetcode', 'programmers', 'projecteuler']
 
     with open('README.md', 'w') as f:
         f.write('# Algorithm Practice\n')
@@ -12,7 +12,8 @@ def summarize():
             for root, directories, files in path:
                 print('directories', directories)
                 print('files', files)
-                for filename in files:
+                for filename in sorted(files,
+                                       key=lambda x: int(x.split('.')[0]) if x.count('.') > 1 else 0):
                     ext = os.path.splitext(filename)[-1]
                     if ext == '.py':
                         print(root, filename)

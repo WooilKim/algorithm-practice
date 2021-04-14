@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 from typing import List
+from collections import defaultdict
 
 
 # Definition for a binary tree node.
@@ -13,15 +14,19 @@ class TreeNode:
 
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        ans = list()
-        ans.append([root.val])
-        curr = [root]
-        next = list()
-        h = 0
-        while next:
-            curr = [n for n in next]
-            while curr:
+        if not root:
+            return []
+        ans = defaultdict(list)
+        q = list()
+        q.append((0, root))
+        ans[0].append(root.val)
+        while q:
+            h, node = q.pop(0)
+            if node.left:
+                q.append((h + 1, node.left))
+                ans[h + 1].append(node.left.val)
+            if node.right:
+                q.append((h + 1, node.right))
+                ans[h + 1].append(node.right.val)
 
-            node = curr.pop(0)
-            ans[h].append(node.val)
-            next.append(curr.left)
+        return ans.values()
