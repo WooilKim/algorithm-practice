@@ -5,16 +5,16 @@ What is the 10001st prime number?
 
 
 def nth_prime(n) -> int:
-    p = 0
     num = 2
-    while p < n:
+    primes = list()
+    while len(primes) < n:
         flag = True
-        for j in range(2, num):
-            if num % j == 0:
+        for p in primes:
+            if num % p == 0:
                 flag = False
                 break
         if flag:
-            p += 1
+            primes.append(num)
         num += 1
     return num - 1
 
