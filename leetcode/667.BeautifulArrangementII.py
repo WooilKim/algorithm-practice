@@ -20,8 +20,9 @@ if __name__ == '__main__':
     print(Solution().constructArray(n=3, k=2))
     print(Solution().constructArray(n=5, k=4))
     print(Solution().constructArray(n=3, k=1))
-# 1 2 3 4 5 1
-# 1 2 3 5 4 2
+
+# 1 2 3 4 5  1
+# 1 2 3 5 4  2
 #
 # 1 5 2 3 4  3
 # 1 2 5 3 4  1,2,3
