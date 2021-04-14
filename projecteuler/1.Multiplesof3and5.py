@@ -7,7 +7,7 @@ def get_multiples_sum(a, b, limit):
     # print([k for k in range(0, limit, a * b)])
     return sum([k for k in range(0, limit, a)]) + sum([k for k in range(0, limit, b)]) - sum(
         [k for k in range(0, limit, a * b)])
-
+    
 
 if __name__ == '__main__':
     print(get_multiples_sum(3, 5, 10))
