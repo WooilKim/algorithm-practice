@@ -151,8 +151,8 @@
 ## projecteuler
 | | | | | | | | | | |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 :white_check_mark:  | 2 :white_check_mark:  | 3 :white_check_mark:  | 4 :white_check_mark:  | 5 :white_check_mark:  | 6 :white_check_mark:  | 7 :white_check_mark:  | 8 :white_check_mark:  | 9 :white_check_mark:  | 10 :white_check_mark:  |
-| 11 :white_check_mark:  | 12 :white_check_mark:  | 13 :white_check_mark:  | 14 :white_check_mark:  | 15 :white_check_mark:  | 16 :white_check_mark:  | 17 :white_check_mark:  | 18 :white_check_mark:  | 19 :white_check_mark:  | 20 :white_check_mark:  |
+| [1](./projecteuler/1.Multiplesof3and5.py) :white_check_mark:  | [2](./projecteuler/2.EvenFibonacciNumbers.py) :white_check_mark:  | [3](./projecteuler/3.LargestPrimeFactor.py) :white_check_mark:  | [4](./projecteuler/4.LargestPalindromeProduct.py) :white_check_mark:  | [5](./projecteuler/5.SmallestMultiple.py) :white_check_mark:  | [6](./projecteuler/6.SumSquareDifference.py) :white_check_mark:  | [7](./projecteuler/7.10001stPrime.py) :white_check_mark:  | [8](./projecteuler/8.LargestProductInASeries.py) :white_check_mark:  | [9](./projecteuler/9.SpecialPythagoreanTriplet.py) :white_check_mark:  | [10](./projecteuler/10.SummationOfPrimes.py) :white_check_mark:  |
+| [11](./projecteuler/11.LargestProductInGrid.py) :white_check_mark:  | [12](./projecteuler/12.HighlyDivisibleTriangularNumber.py) :white_check_mark:  | [13](./projecteuler/13.LargeSum.py) :white_check_mark:  | [14](./projecteuler/14.LongestCollatzSequence.py) :white_check_mark:  | [15](./projecteuler/15.LatticePaths.py) :white_check_mark:  | [16](./projecteuler/16.PowerDigitSum.py) :white_check_mark:  | [17](./projecteuler/17.NumberLetterCounts.py) :white_check_mark:  | [18](./projecteuler/18.MaximumPathSumI.py) :white_check_mark:  | [19](./projecteuler/19.CountingSundays.py) :white_check_mark:  | [20](./projecteuler/20.FactorialDigitSum.py) :white_check_mark:  |
 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 |
 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 |
 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 | 50 |
@@ -227,44 +227,4 @@
 | 731 | 732 | 733 | 734 | 735 | 736 | 737 | 738 | 739 | 740 |
 | 741 | 742 | 743 | 744 | 745 | 746 | 747 | 748 | 749 | 750 |
 | 751 | 752 | 753 | 754 | 755 |
-
-[1.Multiplesof3and5](./projecteuler/1.Multiplesof3and5.py)
-
-[2.EvenFibonacciNumbers](./projecteuler/2.EvenFibonacciNumbers.py)
-
-[3.LargestPrimeFactor](./projecteuler/3.LargestPrimeFactor.py)
-
-[4.LargestPalindromeProduct](./projecteuler/4.LargestPalindromeProduct.py)
-
-[5.SmallestMultiple](./projecteuler/5.SmallestMultiple.py)
-
-[6.SumSquareDifference](./projecteuler/6.SumSquareDifference.py)
-
-[7.10001stPrime](./projecteuler/7.10001stPrime.py)
-
-[8.LargestProductInASeries](./projecteuler/8.LargestProductInASeries.py)
-
-[9.SpecialPythagoreanTriplet](./projecteuler/9.SpecialPythagoreanTriplet.py)
-
-[10.SummationOfPrimes](./projecteuler/10.SummationOfPrimes.py)
-
-[11.LargestProductInGrid](./projecteuler/11.LargestProductInGrid.py)
-
-[12.HighlyDivisibleTriangularNumber](./projecteuler/12.HighlyDivisibleTriangularNumber.py)
-
-[13.LargeSum](./projecteuler/13.LargeSum.py)
-
-[14.LongestCollatzSequence](./projecteuler/14.LongestCollatzSequence.py)
-
-[15.LatticePaths](./projecteuler/15.LatticePaths.py)
-
-[16.PowerDigitSum](./projecteuler/16.PowerDigitSum.py)
-
-[17.NumberLetterCounts](./projecteuler/17.NumberLetterCounts.py)
-
-[18.MaximumPathSumI](./projecteuler/18.MaximumPathSumI.py)
-
-[19.CountingSundays](./projecteuler/19.CountingSundays.py)
-
-[20.FactorialDigitSum](./projecteuler/20.FactorialDigitSum.py)
 
