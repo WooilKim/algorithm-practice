@@ -227,8 +227,7 @@
 | 731 | 732 | 733 | 734 | 735 | 736 | 737 | 738 | 739 | 740 |
 | 741 | 742 | 743 | 744 | 745 | 746 | 747 | 748 | 749 | 750 |
 | 751 | 752 | 753 | 754 | 755 |
-|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | |
+
 [1.Multiplesof3and5](./projecteuler/1.Multiplesof3and5.py)
 
 [2.EvenFibonacciNumbers](./projecteuler/2.EvenFibonacciNumbers.py)

@@ -19,9 +19,7 @@ def summarize():
                 for p in ps:
                     f.write(f'| {p} |\n')
                 # print('\n'.join(ps))
-                f.write("""|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | |
-""")
+                f.write("\n")
 
             path = os.walk(f"./{site}")
             for root, directories, files in path:
