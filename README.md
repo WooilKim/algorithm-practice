@@ -1,23 +1,5 @@
 # Algorithm Practice
 ## acmicpc
-[1012.organic_cabbage](./acmicpc/1012.organic_cabbage.py)
-
-[1021.circular_queue](./acmicpc/1021.circular_queue.py)
-
-[1697.hide_and_seek](./acmicpc/1697.hide_and_seek.py)
-
-[2206.break_wall_and_go](./acmicpc/2206.break_wall_and_go.py)
-
-[2606.virus](./acmicpc/2606.virus.py)
-
-[4949.balancedworld](./acmicpc/4949.balancedworld.py)
-
-[5430.AC](./acmicpc/5430.AC.py)
-
-[10845.queue](./acmicpc/10845.queue.py)
-
-[10866.deque](./acmicpc/10866.deque.py)
-
 [14503_robot_cleaner](./acmicpc/samsung/14503_robot_cleaner.py)
 
 [15686](./acmicpc/samsung/15686.py)
@@ -91,9 +73,13 @@
 
 [145.BinaryTreePostorderTraversal](./leetcode/145.BinaryTreePostorderTraversal.py)
 
+[165.CompareVersionNumbers](./leetcode/165.CompareVersionNumbers.py)
+
 [208.Implement_Trie_(prefix_tree)](./leetcode/208.Implement_Trie_(prefix_tree).py)
 
 [212.Word_Search_II](./leetcode/212.Word_Search_II.py)
+
+[238.ProductOfArrayExceptSelf](./leetcode/238.ProductOfArrayExceptSelf.py)
 
 [285.Inorder_Successor_in_BST](./leetcode/285.Inorder_Successor_in_BST.py)
 
@@ -103,13 +89,19 @@
 
 [621.Task_Scheduler](./leetcode/621.Task_Scheduler.py)
 
+[655.PrintBinayTree](./leetcode/655.PrintBinayTree.py)
+
 [667.BeautifulArrangementII](./leetcode/667.BeautifulArrangementII.py)
 
 [767.Reorganize_String](./leetcode/767.Reorganize_String.py)
 
+[979.DistributeCoininBinarytree](./leetcode/979.DistributeCoininBinarytree.py)
+
 [1004.Max_Consecutive_Ones_III](./leetcode/1004.Max_Consecutive_Ones_III.py)
 
 [1133.LargestUniqueNumber](./leetcode/1133.LargestUniqueNumber.py)
+
+[1609.EvenOddTree](./leetcode/1609.EvenOddTree.py)
 
 [5713.Number_of_Different_Integers_in_a_String](./leetcode/5713.Number_of_Different_Integers_in_a_String.py)
 
@@ -176,4 +168,24 @@
 [9.SpecialPythagoreanTriplet](./projecteuler/9.SpecialPythagoreanTriplet.py)
 
 [10.SummationOfPrimes](./projecteuler/10.SummationOfPrimes.py)
+
+[11.LargestProductInGrid](./projecteuler/11.LargestProductInGrid.py)
+
+[12.HighlyDivisibleTriangularNumber](./projecteuler/12.HighlyDivisibleTriangularNumber.py)
+
+[13.LargeSum](./projecteuler/13.LargeSum.py)
+
+[14.LongestCollatzSequence](./projecteuler/14.LongestCollatzSequence.py)
+
+[15.LatticePaths](./projecteuler/15.LatticePaths.py)
+
+[16.PowerDigitSum](./projecteuler/16.PowerDigitSum.py)
+
+[17.NumberLetterCounts](./projecteuler/17.NumberLetterCounts.py)
+
+[18.MaximumPathSumI](./projecteuler/18.MaximumPathSumI.py)
+
+[19.CountingSundays](./projecteuler/19.CountingSundays.py)
+
+[20.FactorialDigitSum](./projecteuler/20.FactorialDigitSum.py)
 
