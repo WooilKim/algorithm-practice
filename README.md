@@ -149,82 +149,82 @@
 [thanksgiving_traffic](./programmers/kakao/2018/lv3/thanksgiving_traffic.py)
 
 ## projecteuler
-| | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| [1](./projecteuler/1.Multiplesof3and5.py) | :white_check_mark: | | [2](./projecteuler/2.EvenFibonacciNumbers.py) | :white_check_mark: | | [3](./projecteuler/3.LargestPrimeFactor.py) | :white_check_mark: | | [4](./projecteuler/4.LargestPalindromeProduct.py) | :white_check_mark: | | [5](./projecteuler/5.SmallestMultiple.py) | :white_check_mark: | | [6](./projecteuler/6.SumSquareDifference.py) | :white_check_mark: | | [7](./projecteuler/7.10001stPrime.py) | :white_check_mark: | | [8](./projecteuler/8.LargestProductInASeries.py) | :white_check_mark: | | [9](./projecteuler/9.SpecialPythagoreanTriplet.py) | :white_check_mark: | | [10](./projecteuler/10.SummationOfPrimes.py) | :white_check_mark: | |
-| [11](./projecteuler/11.LargestProductInGrid.py) | :white_check_mark: | | [12](./projecteuler/12.HighlyDivisibleTriangularNumber.py) | :white_check_mark: | | [13](./projecteuler/13.LargeSum.py) | :white_check_mark: | | [14](./projecteuler/14.LongestCollatzSequence.py) | :white_check_mark: | | [15](./projecteuler/15.LatticePaths.py) | :white_check_mark: | | [16](./projecteuler/16.PowerDigitSum.py) | :white_check_mark: | | [17](./projecteuler/17.NumberLetterCounts.py) | :white_check_mark: | | [18](./projecteuler/18.MaximumPathSumI.py) | :white_check_mark: | | [19](./projecteuler/19.CountingSundays.py) | :white_check_mark: | | [20](./projecteuler/20.FactorialDigitSum.py) | :white_check_mark: | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
-| str(i) | | | str(i) | | | str(i) | | | str(i) | | | str(i) | | |
+| [1](./projecteuler/1.Multiplesof3and5.py) | :white_check_mark:  | [2](./projecteuler/2.EvenFibonacciNumbers.py) | :white_check_mark:  | [3](./projecteuler/3.LargestPrimeFactor.py) | :white_check_mark:  | [4](./projecteuler/4.LargestPalindromeProduct.py) | :white_check_mark:  | [5](./projecteuler/5.SmallestMultiple.py) | :white_check_mark:  | [6](./projecteuler/6.SumSquareDifference.py) | :white_check_mark:  | [7](./projecteuler/7.10001stPrime.py) | :white_check_mark:  | [8](./projecteuler/8.LargestProductInASeries.py) | :white_check_mark:  | [9](./projecteuler/9.SpecialPythagoreanTriplet.py) | :white_check_mark:  | [10](./projecteuler/10.SummationOfPrimes.py) | :white_check_mark:  |
+| [11](./projecteuler/11.LargestProductInGrid.py) | :white_check_mark:  | [12](./projecteuler/12.HighlyDivisibleTriangularNumber.py) | :white_check_mark:  | [13](./projecteuler/13.LargeSum.py) | :white_check_mark:  | [14](./projecteuler/14.LongestCollatzSequence.py) | :white_check_mark:  | [15](./projecteuler/15.LatticePaths.py) | :white_check_mark:  | [16](./projecteuler/16.PowerDigitSum.py) | :white_check_mark:  | [17](./projecteuler/17.NumberLetterCounts.py) | :white_check_mark:  | [18](./projecteuler/18.MaximumPathSumI.py) | :white_check_mark:  | [19](./projecteuler/19.CountingSundays.py) | :white_check_mark:  | [20](./projecteuler/20.FactorialDigitSum.py) | :white_check_mark:  |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
+| str(i) | | str(i) | | str(i) | | str(i) | | str(i) | |
 

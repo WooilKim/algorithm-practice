@@ -25,10 +25,10 @@ def summarize():
 
                             # f.write(f'[{filename[:-3]}]({root}/{filename})\n\n')
                             tmps.append(f'{root}/{filename}')
-                ps = [f'[{i}]({tmps[i-1]}) | :white_check_mark: |' if i <= solved else f'str(i) | |' for i in
+                ps = [f'[{i}]({tmps[i-1]}) | :white_check_mark: ' if i <= solved else f'str(i) |' for i in
                       range(1, num_problem + 1)]
                 ps = [' | '.join(ps[i * 10:i * 10 + 10]) for i in range(num_problem // 10 + 1)]
-                f.write("""| | | | | | | | | | | | | | | | | | | | | |
+                f.write("""| | | | | | | | | | | | | | | | | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 """)
                 for p in ps:
