@@ -149,7 +149,7 @@
 [thanksgiving_traffic](./programmers/kakao/2018/lv3/thanksgiving_traffic.py)
 
 ## projecteuler
-![Progress](https://progress-bar.dev/20/?scale=755&title=solved&width=600)
+[![Progress](https://progress-bar.dev/20/?scale=755&title=solved&width=600)](#)
 | | | | | | | | | | | | | | | | | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [1](./projecteuler/1.Multiplesof3and5.py) | :white_check_mark:  | [2](./projecteuler/2.EvenFibonacciNumbers.py) | :white_check_mark:  | [3](./projecteuler/3.LargestPrimeFactor.py) | :white_check_mark:  | [4](./projecteuler/4.LargestPalindromeProduct.py) | :white_check_mark:  | [5](./projecteuler/5.SmallestMultiple.py) | :white_check_mark:  | [6](./projecteuler/6.SumSquareDifference.py) | :white_check_mark:  | [7](./projecteuler/7.10001stPrime.py) | :white_check_mark:  | [8](./projecteuler/8.LargestProductInASeries.py) | :white_check_mark:  | [9](./projecteuler/9.SpecialPythagoreanTriplet.py) | :white_check_mark:  | [10](./projecteuler/10.SummationOfPrimes.py) | :white_check_mark:  |
