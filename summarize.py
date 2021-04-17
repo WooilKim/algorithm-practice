@@ -29,7 +29,8 @@ def summarize():
                       range(1, num_problem + 1)]
                 ps = [' | '.join(ps[i * 10:i * 10 + 10]) for i in range(num_problem // 10 + 1)]
                 # progressbar
-                f.write(f"""[![Progress](https://progress-bar.dev/{solved}/?scale={num_problem}&title=solved&width=600)](#)
+                f.write(
+                    f"""[![Progress](https://progress-bar.dev/{solved}/?scale={num_problem}&title=solved&width=600)](#{site})
 """)
                 f.write("""| | | | | | | | | | | | | | | | | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
