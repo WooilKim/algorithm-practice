@@ -10,7 +10,17 @@ Evaluate the sum of all the amicable numbers under 10000.
 
 
 def amicable_numbers(n):
-    pass
+    for i in range(1, n+1):
+
+    return
+
+
+def d(n):
+    divs = list()
+    for i in range(1, n):
+        if n % i == 0:
+            divs.append(i)
+    return sum(divs)
 
 
 if __name__ == '__main__':
