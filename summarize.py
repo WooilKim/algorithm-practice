@@ -19,12 +19,13 @@ def summarize():
                     for filename in sorted(files,
                                            key=lambda x: int(x.split('.')[0]) if x.count('.') > 1 else 0):
                         ext = os.path.splitext(filename)[-1]
-                        solved = len(files)
+                        # solved = len(files)
                         if ext == '.py':
                             print(root, filename)
 
                             # f.write(f'[{filename[:-3]}]({root}/{filename})\n\n')
                             tmps.append(f'{root}/{filename}')
+                        solved = len(tmps)
                 ps = [f'[{i}]({tmps[i - 1]}) | :white_check_mark: ' if i <= solved else f'{i} |' for i in
                       range(1, num_problem + 1)]
                 ps = [' | '.join(ps[i * 10:i * 10 + 10]) for i in range(num_problem // 10 + 1)]
