@@ -11,8 +11,8 @@ def names_scores(names):
     names.sort()
     ans = 0
     for i in range(len(names)):
-        ans +=
-    return
+        ans += (i + 1) * sum([ord(c) - ord('A') + 1 for c in names[i]])
+    return ans
 
 
 if __name__ == '__main__':
