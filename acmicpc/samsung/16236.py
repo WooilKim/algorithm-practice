@@ -14,7 +14,19 @@ def baby_shark(n, board):
         for x in range(n):
             d[board[y][x]].append((y, x))
     baby[1] = list(d[9][0])
-
+    """
+    t = 0
+    while smaller fish than baby shark exists:
+        time = dist to nearest fish
+        t += time
+        move babyshark to nearest fish
+        baby.left -= 1
+        if baby.left == 0:
+            baby.size+=1
+            baby.left = baby.size
+        
+    
+    """
     # no smaller fish to eat
     if len(d[1]) == 0:
         return 0
