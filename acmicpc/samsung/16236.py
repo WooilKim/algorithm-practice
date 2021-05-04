@@ -46,6 +46,7 @@ def baby_shark(n, board):
                 baby[3] += 1
                 baby[2] = 0
                 smaller += len([0 for y in range(n) for x in range(n) if board[y][x] == baby[3] - 1])
+            print(baby, t)
         else:
             break
     return t
