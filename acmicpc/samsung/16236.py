@@ -9,7 +9,7 @@ def baby_shark(n, board):
             if board[y][x] == 9:
                 baby[0], baby[1] = y, x
                 board[y][x] = 0
-            if board[y][x] < 2:
+            elif board[y][x] < 2:
                 smaller += 1
     t = 0
     dirs = [[-1, 0],  # up
@@ -23,20 +23,20 @@ def baby_shark(n, board):
         candidates = list()
         while q:
             dist, y, x = q.pop(0)
+            if (y, x) in mem:
+                continue
+            mem.add((y, x))
             if board[y][x] == 0 or board[y][x] == baby[3]:
-                mem.add((y, x))
                 for dir in dirs:
                     next_y, next_x = y + dir[0], x + dir[1]
                     if 0 <= next_y < n and 0 <= next_x < n:
                         q.append((dist + 1, next_y, next_x))
-            if 0 < board[y][x] < baby[3]:
-                mem.add((y, x))
+            elif 0 < board[y][x] < baby[3]:
                 candidates.append((dist, y, x))
         if candidates:
-            print(candidates)
             dist, y, x = sorted(candidates)[0]
-            board[baby[0]][baby[1]] = 0
             baby[0], baby[1] = y, x
+            board[baby[0]][baby[1]] = 0
             t += dist
             # eat fish
             baby[2] += 1
@@ -45,7 +45,6 @@ def baby_shark(n, board):
                 baby[3] += 1
                 baby[2] = 0
                 smaller += len([0 for y in range(n) for x in range(n) if board[y][x] == baby[3] - 1])
-            print(baby, t)
         else:
             break
     return t
