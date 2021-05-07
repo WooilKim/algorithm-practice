@@ -23,11 +23,16 @@ def teen_shark(A, B):
             for i in range(8):
                 next_d = (d + i) % 8
                 next_y, next_x = y + dirs[next_d][0], x + dirs[next_d][1]
-                # if next is in board and not shark
-                if 0 <= next_x < 4 and 0 <= next_y < 4 and all([next_y, next_x] != shark[:1]):
+                # move if next is in board and not shark
+                if 0 <= next_x < 4 and 0 <= next_y < 4 and (next_y, next_x) != (shark[0], shark[1]):
                     # change fish 1 and 2 from A, B
-                    if A[next_y][next_x] in fish:
+                    # empty cell
+                    if A[next_y][next_x] == 0:
+                        A[y][x], A[next_y][next_x] = A[next_y][next_x], A[y][x]
                         fish[A[next_y][next_x]][0], fish[A[next_y][next_x]][1] = y, x
+                    # if there is another fish
+                    else:
+
                     fish[size][0], fish[size][1] = next_y, next_x
                     A[y][x], A[next_y][next_x] = A[next_y][next_x], A[y][x]
                     # TODO : update B
@@ -58,14 +63,17 @@ def teen_shark(A, B):
     update shark direction
     return dfs()
     def dfs(shark, A, B):
+        # sort fishes ascending order (skip 0)
         fish = {A[j][i]:[j, i, B[j][i]] for j in range(4) for i in range(4) if A[j][i] > 0}
-        fish.sort()
         fkeys = fish.keys().sort()
-        for f in fkeys:
-            size, y, x, d
+
+        # move fishes       
+        for size in fkeys:
+            y, x, d = fish[size]
+            # loop dirs
             for i in range(8):
-                next_d = (d+i)%8
-                next_y, next_x = y + dirs[next_d][0], x+dirs[next_d][1] 
+                next_d = dirs[(d+i) % 8]
+                next_y, next_x = y + next_d[0], x+next_d[1] 
                 if 0<= next_x, next_y < 4 and (next_y, next_X != shark)
                     if A[next_y][next_x] in fish:
                         fish[A[next_y][next_x]][0], fish[A[next_y][next_x]][1] = y, x
