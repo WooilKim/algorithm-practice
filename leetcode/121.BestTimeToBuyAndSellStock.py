@@ -3,6 +3,16 @@
 from typing import List
 from copy import deepcopy
 
+
+def maxProfit(prices):
+    max_profit, min_price = 0, float('inf')
+    for price in prices:
+        min_price = min(min_price, price)
+        profit = price - min_price
+        max_profit = max(max_profit, profit)
+    return max_profit
+
+
 # Runtime: 2012 ms, faster than 5.04% of Python3 online submissions for Best Time to Buy and Sell Stock.
 # Memory Usage: 25.9 MB, less than 5.12% of Python3 online submissions for Best Time to Buy and Sell Stock.
 class Solution:
