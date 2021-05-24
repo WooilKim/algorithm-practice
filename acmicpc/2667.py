@@ -5,6 +5,8 @@ from collections import deque
 
 def solution(n, board):
     answer = list()
+    dy = [1, -1, 0, 0]
+    dx = [0, 0, -1, 1]
     for j in range(n):
         for i in range(n):
             if board[j][i] > 0:
@@ -16,10 +18,8 @@ def solution(n, board):
                     if board[y][x] == 0:
                         continue
                     board[y][x] = 0
-                    dy = [1, -1, 0, 0]
-                    dx = [0, 0, -1, 1]
                     cnt += 1
-                    for d in range(len(dy)):
+                    for d in range(4):
                         next_y, next_x = y + dy[d], x + dx[d]
                         if 0 <= next_y < n and 0 <= next_x < n:
                             queue.append((next_y, next_x))
