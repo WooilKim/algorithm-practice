@@ -1,35 +1,53 @@
 # https://programmers.co.kr/learn/courses/30/lessons/72411
 # title : 메뉴 리뉴얼
-from collections import defaultdict
+
+from itertools import combinations
+from collections import Counter
 
 
 def solution(orders, course):
     answer = []
-    d = [["0"] * 26 for _ in orders]
-    for i in range(len(orders)):
-        for c in orders[i]:
-            d[i][ord(c) - ord('A')] = "1"
-    print(d)
-    answers = defaultdict(list)
-    for i in range(len(d)):
-        for j in range(len(d)):
-            if i < j:
-                a, b = int(''.join(d[i]), 2), int(''.join(d[j]), 2)
-                s = format(a & b, 'b')
-                answers[s.count('1')].append(s)
-
-    print(answers)
     for c in course:
-        for ans in answers[c]:
-            tmp = ''
-            for i in range(len(ans)):
-                if ans[i] == '1':
-                    tmp += chr(ord('A') + i)
-            answer.append(tmp)
+        tmp = list()
+        for order in orders:
+            cb = list(combinations(sorted(order), c))
+            tmp += cb
+        counter = Counter(tmp)
+        if counter and max(counter.values()) != 1:
+            answer += [''.join(f) for f in counter if counter[f] == max(counter.values())]
 
-    # for item in l:
-    #     print(item.count('1'))
-    return answer
+    return sorted(answer)
+
+
+#
+# def solution(orders, course):
+#     answer = []
+#     d = [["0"] * 26 for _ in orders]
+#     for i in range(len(orders)):
+#         for c in orders[i]:
+#             d[i][ord(c) - ord('A')] = "1"
+#     answers = dict()
+#     for i in range(len(d)):
+#         tmp = defaultdict(int)
+#         for j in range(len(d)):
+#             if i != j:
+#                 a, b = int(''.join(d[i]), 2), int(''.join(d[j]), 2)
+#                 s = format(a & b, '026b')
+#                 tmp[s] += 1
+#         print(tmp)
+#
+#
+#     for c in course:
+#         for ans in answers[c]:
+#             tmp = ''
+#             for i in range(len(ans)):
+#                 if ans[i] == '1':
+#                     tmp += chr(ord('A') + i)
+#             answer.append(tmp)
+#
+#     # for item in l:
+#     #     print(item.count('1'))
+#     return sorted(answer)
 
 
 if __name__ == '__main__':
@@ -52,4 +70,8 @@ len(answer) >= 1
 ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]	[2,3,4]	["AC", "ACDE", "BCFG", "CDE"]
 ["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"]	[2,3,5]	["ACD", "AD", "ADE", "CD", "XYZ"]
 ["XYZ", "XWY", "WXA"]	[2,3,4]	["WX", "XY"]
+
+111000000000000000000000 
+10111000000000000000000000 
+111000000000000000000000
 """
