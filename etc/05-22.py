@@ -8,20 +8,20 @@ def solution(N, edges):
     for edge in edges:
         G[edge[0]][edge[1]] = edge[2]
         G[edge[1]][edge[0]] = edge[2]
-    print(G)
+    # print(G)
     queue = deque()
-    visited = set()
+    # visited = set()
     dist_table = [[0 for _ in range(N + 1)] for _ in range(N + 1)]
     for k, v in G[1].items():
         queue.append((1, k, v))
-    print(queue)
+    # print(queue)
     while queue:
         start, target, dist = queue.popleft()
-        if (min(start, target), max(start, target)) in visited:
-            continue
-        # if dist_table[min(start, target)][max(start, target)] != 0:
+        # if (min(start, target), max(start, target)) in visited:
         #     continue
-        visited.add((min(start, target), max(start, target)))
+        if dist_table[min(start, target)][max(start, target)] != 0:
+            continue
+        # visited.add((min(start, target), max(start, target)))
         dist_table[min(start, target)][max(start, target)] = dist
         for next_node, next_dist in G[start].items():
             if next_node != target:
