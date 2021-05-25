@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/2667
-
+# BOJ 2667 단지번호 붙이기 (1996 KOI 초등부)
 from collections import deque
 
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 11011
 11011
 
-5
+5리
 11110
 00000
 11100
