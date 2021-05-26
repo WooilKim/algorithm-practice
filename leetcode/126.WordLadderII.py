@@ -4,7 +4,7 @@ from typing import List
 from collections import deque, defaultdict
 
 
-class Solution:
+class Solution3:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
 
         wordSet = set(wordList)  # faster checks against dictionary
@@ -27,6 +27,30 @@ class Solution:
             wordSet -= set(newlayer.keys())  # remove from dictionary to prevent loops
             layer = newlayer  # move down to new layer
 
+        return []
+
+
+class Solution:
+    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+        wordSet = set(wordList)
+        if endWord not in wordSet:
+            return []
+        layer = dict()
+        layer[beginWord] = [[beginWord]]
+        while layer:
+            newLayer = defaultdict(list)
+            for word in layer:
+                if word == endWord:
+                    return layer[word]
+                for i in range(len(word)):
+                    for c in 'abcdefghijklmnopqrstuvwxyz':
+                        new_word = word[:i] + c + word[i + 1:]
+                        if new_word in wordSet:
+                            # newLayer[new_word].append([j + [new_word] for j in layer[word]])
+                            newLayer[new_word] += [j + [new_word] for j in layer[
+                                word]]  # add new word to all sequences and form new layer element
+            wordSet -= set(newLayer.keys())
+            layer = newLayer
         return []
 
 
