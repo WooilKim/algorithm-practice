@@ -2,10 +2,22 @@ from typing import List
 
 
 def sort_by_ext(files: List[str]) -> List[str]:
-    return sorted(files, key=lambda x: (x[x.rindex('.'):], x[:x.rindex('.')]))
+    for x in files:
+        if len(x) - x.rindex('.') == 4:
+            print(x[x.rindex('.'):], x[:x.rindex('.')])
+        else:
+            print('.aaa', x)
+
+    # print([x[x.rindex('.'):], x[:x.rindex('.')] if len(x) - x.rindex('.') == 4 else tuple(('0', x)) for x in files])
+
+    return sorted(files,
+                  key=lambda x: (
+                      (x[x.rindex('.'):], x[:x.rindex('.')]) if x.rindex('.') > 0 else tuple(
+                          ('.', x))))
 
 
 if __name__ == '__main__':
+    print(len('as.asd') - 'as.asd'.rindex('.'))
     print("Example:")
     print(sort_by_ext(['1.cad', '1.bat', '1.aa']))
     print(sort_by_ext(['1.cad', '1.bat', '1.aa', '.bat']))
