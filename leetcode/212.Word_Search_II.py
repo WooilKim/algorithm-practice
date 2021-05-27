@@ -22,34 +22,29 @@ class Trie:
             cur = cur.child[w]
         cur.child['*'] = True
 
-    def search(self, word):
-        cur = self.root
-        for w in word:
-            if w not in cur.child:
-                return False
-            cur = cur.child[w]
-        if '*' in cur.child:
-            return True
 
-
-# Runtime: 9860 ms, faster than 5.02% of Python3 online submissions for Word Search II.
-# Memory Usage: 14.7 MB, less than 40.62% of Python3 online submissions for Word Search II.
+# Runtime: 48 ms, faster than 95.50% of Python3 online submissions for Word Search II.
+# Memory Usage: 14.8 MB, less than 10.31% of Python3 online submissions for Word Search II.
 class Solution:
     def findWords(self, board: list[list[str]], words: list[str]) -> list[str]:
         m, n = len(board[0]), len(board)
         answer = set()
         trie = Trie()
+        visited = set()
 
-        def dfs(node, y, x, word, visited):
+        def dfs(node, y, x, word, path):
             if '*' in node.child:
                 answer.add(word)
+            if (y, x, word) in visited:
+                return
+            visited.add((y, x, word))
             dy = [1, 0, -1, 0]
             dx = [0, 1, 0, -1]
             for d in range(4):
                 ny, nx = y + dy[d], x + dx[d]
-                if 0 <= ny < n and 0 <= nx < m and (ny, nx) not in visited:
+                if 0 <= ny < n and 0 <= nx < m and (ny, nx) not in path:
                     if board[ny][nx] in node.child:
-                        dfs(node.child[board[ny][nx]], ny, nx, word + board[ny][nx], visited + [(ny, nx)])
+                        dfs(node.child[board[ny][nx]], ny, nx, word + board[ny][nx], path + [(ny, nx)])
 
         for word in words:
             trie.insert(word)
