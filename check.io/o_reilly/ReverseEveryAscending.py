@@ -1,22 +1,18 @@
 # https://py.checkio.org/en/mission/reverse-every-ascending/
 
 def reverse_ascending(items):
-    i, j = 0, 1
-    while j < len(items):
-        if items[j] > items[i]:
-            j += 1
-        else:
-            items = items[:i] + sorted(items[i:j], reverse=True) + items[j:]
-            i = j
-            j += 1
+    l, r = 0, 1
+    while r <= len(items):
+        if r == len(items) or items[r] <= items[r - 1]:
+            items = items[:l] + sorted(items[l:r], reverse=True) + items[r:]
+            l = r
+        r += 1
     return items
 
 
 if __name__ == '__main__':
     print("Example:")
-    test = [1, 2, 3, 4, 5]
-    test[0:3].sort(reverse=True)
-    print(test)
+    print(reverse_ascending([1, 2, 2, 3]))
     print(reverse_ascending([1, 2, 3, 4, 5]))
 
     # These "asserts" are used for self-checking and not for an auto-testing
