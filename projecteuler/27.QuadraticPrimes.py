@@ -1,8 +1,6 @@
 # https://projecteuler.net/problem=27
 # 27. Quadratic Primes
 
-import math
-
 primes = set()
 
 
@@ -39,7 +37,7 @@ if __name__ == '__main__':
             c = testEquation(a, b)
             if c > best:
                 best, besta, bestb = c, a, b
-    print(besta * bestb)
+    print(best, besta, bestb, besta * bestb)
 
 """
 -1000<=a,b<=1000
