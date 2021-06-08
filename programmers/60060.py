@@ -18,50 +18,43 @@ class Trie:
 
     def insert(self, word: str):
         cur = self.root
-        for i, w in enumerate(list(word)):
+        i = 0
+        for w in word:
             if w not in cur.child:
                 cur.child[w] = Node(w)
             cur.len_dict[len(word) - i] += 1
             cur = cur.child[w]
-        cur.child['*'] = True
-
-    def search(self, word: str) -> bool:
-        cur = self.root
-        for w in word:
-            if w not in cur.child:
-                return False
-            cur = cur.child[w]
-        if '*' in cur.child:
-            return True
-
-    # def search_wildcard(self, word: str) -> set[str]:
-    #     res= list()
-    #     cur = self.root
-    #     for w in word:
-    #         if w == '?':
-    #     return {}
+            i += 1
 
     def query(self, word: str) -> int:
         cur = self.root
+        i = 0
         for w in word:
             if w == '?':
-                return sum(cur.len_dict.values())
+                return cur.len_dict.get(len(word) - i, 0)
             if w not in cur.child:
                 return 0
             cur = cur.child[w]
+            i += 1
         return 0
 
 
-def solution(words: list[int], queries: list[int]) -> list[int]:
+def solution(words, queries):
     answer = []
-    trie = Trie()
+    trie_left, trie_right = Trie(), Trie()
     for word in words:
-        trie.insert(word)
+        trie_left.insert(word)
+        trie_right.insert(word[::-1])
 
+    for query in queries:
+        if query[0] == '?':
+            answer.append(trie_right.query(query[::-1]))
+        else:
+            answer.append(trie_left.query(query))
     return answer
 
 
 if __name__ == '__main__':
-    words = [["apple"], ["apple"], ["app"], ["app"], ["app"], ["app"]]
-
-    print(solution(words, words))
+    words = ["frodo", "front", "frost", "frozen", "frame", "kakao"]
+    queries = ["?????"]
+    print(solution(words, queries))
