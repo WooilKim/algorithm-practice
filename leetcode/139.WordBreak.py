@@ -5,18 +5,13 @@ from collections import deque
 
 
 class Solution:
-    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        wordDict.sort()
-        queue = deque([s])
-        while queue:
-            curr = queue.popleft()
-            for w in wordDict:
-                if curr == w:
-                    return True
-                if len(curr) > len(w):
-                    if curr[:len(w)] == w:
-                        queue.append(curr[len(w):])
-        return False
+    def wordBreak(self, s, wordDict):
+        dp = [False for _ in s]
+        for i in range(len(s)):
+            for word in wordDict:
+                if word == s[i - len(word) + 1:i + 1] and (dp[i - len(word)] or i - len(word) == -1):
+                    dp[i] = True
+        return dp[-1]
 
 
 if __name__ == '__main__':
