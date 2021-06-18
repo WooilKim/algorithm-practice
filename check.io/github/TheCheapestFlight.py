@@ -1,6 +1,7 @@
 # https://py.checkio.org/en/mission/the-cheapest-flight/
 # Github
 # The Cheapest Flight
+
 from typing import List
 from collections import defaultdict
 
