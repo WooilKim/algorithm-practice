@@ -1,8 +1,9 @@
 def left_join(phrases: tuple) -> str:
-    phrases = ','.join(phrases)
-    while "right" in phrases:
-        phrases = phrases.replace('right', 'left')
-    return phrases
+    # phrases = ','.join(phrases)
+    # while "right" in phrases:
+    #     phrases = phrases.replace('right', 'left')
+    # return phrases
+    return 'left'.join(','.join(phrases).split('right'))
 
 
 if __name__ == '__main__':
